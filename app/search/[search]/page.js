@@ -45,7 +45,7 @@ const page = ({params}) => {
             
 
 
-            {data.status==404? <h1 className='p-5 mx-auto flex items-center justify-center h-screen font bold text-5xl text-white'>{data.message}</h1> :
+            {data.status==404? <h1 className='p-5  flex  justify-center h-screen font bold text-5xl text-white'>{data.message}</h1> :
 
 
                     <div className=' grid grid-cols-1 sm:grid-cols-4 gap-10 py-20'>
