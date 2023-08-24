@@ -57,7 +57,7 @@ const Countries = () => {
 
 
          
-            {isLoading? <h1 className=' p-5 mx-auto flex items-center justify-center h-full text-5xl text-white'>Loading</h1>:
+            {isLoading? <h1 className=' p-5 mx-auto flex items-center justify-center h-screen font bold text-5xl text-white'>Loading</h1>:
             <Country country={rest}/>
             }
 

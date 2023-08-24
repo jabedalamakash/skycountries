@@ -47,7 +47,7 @@ const page = ({params}) => {
         <div className='px-5 w-full sm:px-0 sm:w-[80%] my-20    mx-auto'>
 
         <Link href="/">
-                <button className='bg-green-600 px-5 mb-10 font-bold text-white  py-3'>Back</button>
+                <button className='bg-green-600 px-5 rounded-lg mb-10 font-bold text-white  py-3'>Back</button>
             </Link>
 
            
