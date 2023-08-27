@@ -86,37 +86,7 @@ const page = ({params}) => {
                 
             }
 
-            {/* {   
-            data.map((item)=>
 
-            
-            <div key={item.name.common} className='w-full shadox-5xl bg-slate-700 text-white'>
-
-            <Image
-            src={item.flags.png}
-            alt={item.name.common}
-            width={300}
-            height={200}
-            priority
-            className='mb-10  object-cover'
-            />
-            <div className='w-full p-6 '>
-            <h1 className='text-2xl font-bold  mb-3'>Name:{" "}{item.name.common}</h1>
-            <h1 className='text-xl font-bold mb-3' >Capital:{" "} {item.capital}</h1>           
-            <h1 className='text-xl  font-bold mb-3' >Region:{" "}{item.region}</h1>
-            <Link href={`/countries/${item.name.common}`}><button className='text-lg px-3 py-2 bg-green-600 mb-2'>Show Details</button></Link>
-            
-            </div>
-
-
-            </div>
-            </section>    
-                
-                
-                )
-
-                
-            }  */}
 
 
             

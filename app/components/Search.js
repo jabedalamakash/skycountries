@@ -33,7 +33,7 @@ const Search = () => {
 
     return (
         <>
-            <div className=' w-full flex '>
+            <div className='w-full flex '>
 
 
                 <input className='p-5 block rounded-lg w-full mr-3 ' required onChange={handleChange} type="text" value={search} placeholder='Search a Country'/>
